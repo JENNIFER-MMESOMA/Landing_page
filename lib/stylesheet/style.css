@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+/* header section */
+.header {
+    background-color:black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+/* first page section */
+.new-arrivals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+}
+.new-arrivals img {
+    max-width: 100%;
+    height: auto;
+}
+/* second pade section */
+.product-section {
+    text-align: center;
+    margin: 20px 0;
+}
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;  /* Ensure margins are not too large */
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+.product3 {
+  height: 500px;
+}
+/* footer section */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+}
